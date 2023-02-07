@@ -9,9 +9,12 @@ const flash = require("connect-flash");
 // Import Monggose
 const mongoose = require("mongoose");
 mongoose.set("strictQuery", true);
-mongoose.connect("mongodb://127.0.0.1:27017/db_staycation", {
-  useNewUrlParser: true,
-});
+mongoose.connect(
+  "mongodb+srv://yanzsofyan:yanzsofyan97@cluster0.dko9n1j.mongodb.net/db_staycation?retryWrites=true&w=majority",
+  {
+    useNewUrlParser: true,
+  }
+);
 
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
