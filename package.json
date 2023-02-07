@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "./views/index.ejs",
+    "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
     "test": "mocha  --exit"
   },
