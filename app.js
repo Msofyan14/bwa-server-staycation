@@ -44,7 +44,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 app.use(
   "/sb-admin-2",
-  express.static(path.join(__dirname, "node_modules/startbootstrap-sb-admin"))
+  express.static(path.join(__dirname, "node_modules/startbootstrap-sb-admin-2"))
 );
 
 app.use("/", indexRouter);
