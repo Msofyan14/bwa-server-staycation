@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "bootstrap": "^5.2.3",
+    "bootstrap": "^4.6.2",
     "chai": "^4.3.7",
     "chai-http": "^4.3.0",
     "connect-flash": "^0.1.1",
