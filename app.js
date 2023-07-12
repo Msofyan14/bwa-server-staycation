@@ -35,7 +35,7 @@ app.use(
     secret: "keyboard cat",
     resave: false,
     saveUninitialized: true,
-    cookie: { maxAge: 99999999999 },
+    cookie: { maxAge: 9999999999999 },
   })
 );
 app.use(flash());
