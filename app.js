@@ -36,7 +36,7 @@ app.use(
     resave: false,
     saveUninitialized: true,
     rolling: true,
-    cookie: { maxAge: 3600000 },
+    cookie: { maxAge: 6600000 },
   })
 );
 app.use(flash());
